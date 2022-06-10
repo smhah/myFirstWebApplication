@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://smhah:halaswac@myfirstwebapplication.5tfmh.mongodb.net/?retryWrites=true&w=majority",
+    "jwtToken":"mysecrettoken"
+}
