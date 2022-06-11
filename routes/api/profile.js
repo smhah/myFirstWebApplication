@@ -81,10 +81,10 @@ router.post("/",[auth, [
       return res.json(profile);
     }
     // Create profile
-    // profile = new Profile(profileFields);
+    profile = new Profile(profileFields);
 
-    // await profile.save();
-    // res.json(profile);
+    await profile.save();
+    res.json(profile);
   }
   catch (err){
     console.error(err.message);
